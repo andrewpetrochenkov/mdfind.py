@@ -1,20 +1,24 @@
+<!--
+https://pypi.org/project/readme-generator/
+-->
+
 [![](https://img.shields.io/badge/OS-MacOS-blue.svg?longCache=True)]()
-[![](https://img.shields.io/pypi/pyversions/mdfind.svg?longCache=True)](https://pypi.org/pypi/mdfind/)
-[![](https://img.shields.io/pypi/v/mdfind.svg?maxAge=3600)](https://pypi.org/pypi/mdfind/)
+[![](https://img.shields.io/pypi/pyversions/mdfind.svg?longCache=True)](https://pypi.org/project/mdfind/)
+[![](https://img.shields.io/pypi/v/mdfind.svg?maxAge=3600)](https://pypi.org/project/mdfind/)
 [![Travis](https://api.travis-ci.org/looking-for-a-job/mdfind.py.svg?branch=master)](https://travis-ci.org/looking-for-a-job/mdfind.py/)
 
-#### Install
+#### Installation
 ```bash
 $ [sudo] pip install mdfind
 ```
 
 #### Functions
-function|description
+function|`__doc__`
 -|-
-`mdfind.count(query=None, name=None, onlyin=None)`|return search results count
-`mdfind.mdfind(args)`|execute mdfind with arguments
-`mdfind.name(name, onlyin=None)`|`mdfind -name name` search by name
-`mdfind.query(query, onlyin=None)`|search by Spotlight query
+`mdfind.count(query=None, name=None, onlyin=None)` |return search results count
+`mdfind.mdfind(args)` |execute mdfind with arguments
+`mdfind.name(name, onlyin=None)` |`mdfind -name name` search by name
+`mdfind.query(query, onlyin=None)` |search by Spotlight query
 
 #### Examples
 ```python
@@ -43,4 +47,6 @@ function|description
 #### Links
 +   [File Metadata Query Expression Syntax](https://developer.apple.com/library/archive/documentation/Carbon/Conceptual/SpotlightQuery/Concepts/QueryFormat.html)
 
-<p align="center"><a href="https://pypi.org/project/readme-md/">readme-md</a> - README.md generator</p>
+<p align="center">
+    <a href="https://pypi.org/project/readme-generator/">readme-generator</a>
+</p>

@@ -19,7 +19,7 @@ def _args(query=None, name=None, onlyin=None):
 def mdfind(args):
     """execute mdfind with arguments"""
     cmd = ["mdfind"] + list(args)
-    return runcmd.run(cmd)._raise().out
+    return runcmd.run(cmd).exc().out
 
 
 @public.add
